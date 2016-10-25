@@ -2,8 +2,8 @@
 ROS package (indigo) for visual odometry
 
 **Who do I talk to?**
-* Author: Fernando Caballero (fcaballero@us.es)
-* Author: Francisco J Perez Grau (fjperezgrau@gmail.com)
+* Fernando Caballero (fcaballero@us.es), University of Seville, Spain
+* Francisco J Perez Grau (fjperezgrau@gmail.com), CATEC (Center for Advanced Aerospace Technologies), Spain
 
 # Citing
 If you use viodom in an academic context, please cite the following publication: http://ieeexplore.ieee.org/document/7502653/
