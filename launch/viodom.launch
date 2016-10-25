@@ -13,8 +13,8 @@ Files tuned for EuRoC datasets using ROS indigo
     <param name="max_features" value="800" />
     <param name="flow_threshold" value="10.0" />
     <param name="min_matches" value="20" />
-    <param name="src_frame_id" value="world" />
-    <param name="tgt_frame_id" value="new_viodom" />
+    <param name="src_frame_id" value="odom" />
+    <param name="tgt_frame_id" value="base_link" />
     <param name="display_images" value="false" />
   </node>
 
