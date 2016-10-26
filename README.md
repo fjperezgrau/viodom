@@ -1,4 +1,4 @@
-# viodom
+# viodom [![Build Status](https://travis-ci.org/fjperezgrau/viodom.svg?branch=master)](https://travis-ci.org/fjperezgrau/viodom)
 ROS package (indigo) for visual odometry. This package contains one single node: viodom_node, which estimates robot motion based on incoming raw images and IMU mesaurements from the Visual-Inertial (VI-) Sensor. To correctly estimate the motion, the node first needs to wait for a few seconds to initialize an IMU filter.
 
 **Who do I talk to?**
