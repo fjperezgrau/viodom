@@ -1,11 +1,11 @@
 <!--
 F. Caballero and F.J. Perez-Grau
-Files tuned for EuRoC datasets using ROS indigo
+Files tuned for EuRoC dataset 'catec-2016-01-27-12-30-41.bag'
 -->
 <launch>
 
   <node name="viodom_node" type="viodom_node" pkg="viodom" output="screen" >
-    <param name="left_cam" value="/euroc5/cam1" />
+    <param name="left_cam" value="/euroc5/cam2" />
     <param name="right_cam" value="/euroc5/cam0" />
     <param name="imu_topic" value="/euroc5/imu0" />
     <param name="downsampling" value="2" />
@@ -13,7 +13,7 @@ Files tuned for EuRoC datasets using ROS indigo
     <param name="max_features" value="800" />
     <param name="flow_threshold" value="10.0" />
     <param name="min_matches" value="20" />
-    <param name="src_frame_id" value="odom" />
+    <param name="src_frame_id" value="world" />
     <param name="tgt_frame_id" value="base_link" />
     <param name="display_images" value="false" />
   </node>
