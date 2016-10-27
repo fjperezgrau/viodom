@@ -9,8 +9,8 @@ sudo apt-get install libeigen3-dev
 * Fernando Caballero (fcaballero@us.es), University of Seville, Spain
 * Francisco J Perez Grau (fjperezgrau@gmail.com), CATEC (Center for Advanced Aerospace Technologies), Spain
 
-# viodom_node
-This node takes in a stereo pair of images and IMU data, and outputs pose estimates. Images are rectified using calibration information. On startup, an IMU filter needs to be initialized. Some parameters can be changed without having to restart the node, as indicated in the dynamic reconfiguration file in subfolder 'cfg'.
+# Nodes
+Currently this package only includes one node which takes in a stereo pair of images and IMU data, and outputs pose estimates. Images are rectified using calibration information. On startup, an IMU filter needs to be initialized so the robot needs to be quiet for a few seconds. Some parameters can be changed without having to restart the node, as indicated in the dynamic reconfiguration file in subfolder 'cfg'.
 
 **Subscribed Topics**
 * left_cam/image_raw (sensor_msgs/Image): Left camera raw image. 
@@ -25,7 +25,8 @@ This node takes in a stereo pair of images and IMU data, and outputs pose estima
 * tf (tf/tfMessage): Publishes the transform from odom to base_link. 
 
 # Demo
-The package includes a launch file with parameters tuned and ready to use with a recorded bagfile that can be downloaded from https://drive.google.com/open?id=0B3msAWZJELBTYXg3OE0zWmd0eVU
+The package includes a launch file with parameters ready to use with a dataset recorded at CATEC. This dataset includes images, IMU data and ground-truth localization taken from a VICON motion capture system.
+The bagfile can be downloaded from https://drive.google.com/open?id=0B3msAWZJELBTYXg3OE0zWmd0eVU
 
 # Citing
 If you use viodom in an academic context, please cite the following publication:
