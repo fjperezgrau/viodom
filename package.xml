@@ -2,7 +2,9 @@
 <package>
   <name>viodom</name>
   <version>0.0.0</version>
-  <description>The viodom package</description>
+  <description>Visual odometry package, currently supporting stereo camera + IMU</description>
+  <author email="fcaballero@us.es">Fernando Caballero</author>
+  <author email="fjperezgrau@gmail.com">Francisco J. Perez Grau</author>
   <maintainer email="fcaballero@us.es">Fernando Caballero</maintainer>
   <maintainer email="fjperezgrau@gmail.com">Francisco J. Perez Grau</maintainer>
   <license>BSD 3-Clause License</license>
